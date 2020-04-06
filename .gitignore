@@ -1,0 +1,33 @@
+# Common directories
+/node_modules/
+/tests/
+/vendor/
+composer.lock
+package-lock.json
+
+# Best practice
+.env
+
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS & Editor folders
+.cache
+.DS_Store
+.eslintrc.js
+.idea
+.project
+.rnd
+.settings
+.vscode
+gulpfile.js
+nbproject
+thumbs.db
