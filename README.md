@@ -26,8 +26,7 @@ aka: anchor, anchors, references
 - Anchors are generated for:
   - headings
   - list items starting with text wrapped in backticks. ex:``` -`Title` content```
-- Anchors are NOT case sensitive.
-- Article text matching an anchor (case insenstive) is linked except:
+- Article text matching an anchor (case insensitive?) is linked except:
   - article self-references
   - within backtick scopes
 - All discovered document/project definitions are given definition tooltips, trimmed to X characters.
@@ -35,7 +34,7 @@ aka: anchor, anchors, references
 
 internals: HTML HREF anchors are derived from title, replacing spaces with underscores and discard all incompatible characters.
 
-Although not recommended, automatic linking can be disabled and `abr:` could be used instead.
+(WIP) Although not recommended, automatic linking can be disabled and `abr:` could be used instead.
 
 # Definitions article
 aka: glossary
@@ -110,14 +109,14 @@ internals: could use git commit names within repo context.
 
 # Programming article properties
 - `usedBy:` (WIP) other articles that utilize this one property/function.
-- `depreciated:` aka:absolete. reason for removal and name of replacement if any exists. Heading/list item titles gain `depreciated` class. Date of depreciation prepended automatically if vcs-auto-tags is enabled.
+- `depreciated:` aka:obsolete. reason for removal and name of replacement if any exists. Heading/list item titles gain `depreciated` class. Date of depreciation prepended automatically if vcs-auto-tags is enabled.
 
 ## Automatic programming properties
 - `vcs-removed:` git tag/commit removed in, see depreciated.
 - `vcs-added:` git tag/commit introduced in
 
 # Advanced settings (WIP)
-- auto-link-case-sentitive: default false
+- auto-link-case-sensitive: default false
 - tooltip-length: default 128 characters?
 - vcs-auto-tags: default true
 - disable-tag-index: default false
