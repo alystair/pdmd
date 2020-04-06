@@ -73,14 +73,14 @@ warning:
 
 - `internals:` Additional details and rational concerning a project's internal functionality 🤓
 
-internals: pdMarkdown was born whilst writing the initial draft documentation and tutorials for pageDriver. We noticed repeating textual themes throughout (`try:`, `notice:`) and thought it would be best to make writing documentation as painless as writing pageDriver code.
+internals: pdMarkdown was born out of writing documentation and tutorials for an internal project. We noticed repeating textual themes throughout (`try:`, `notice:`, etc) and thought it would be best to standardize it.
 
 # Article properties
 aka: Article property, Sub-article properties, Sub-article property
 
 - `tags:` aka:taxonomy,grouping. Article tags/taxonomy/group links. 
   - A project-wide tag list is placed in an article named 'Tag Index', if you want to rename it, create an empty article with your chosen heading directly followed by`##TAGLIST`.
-- `slug:` (WIP) specific alternative word or phrase that anchors this article/reference.
+- `slug:` (WIP) specific alternative word or phrase that anchors the article/reference.
 - `aka:` alternative titles, names, synonyms, or pseudonyms.
 
 If you are having issues ensure that:
