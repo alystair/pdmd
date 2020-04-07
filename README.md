@@ -79,7 +79,7 @@ aka: Article property, Sub-article properties, Sub-article property
 
 - `tags:` aka:taxonomy,grouping. Article tags/taxonomy/group links. 
   - A project-wide tag list is placed in an article named 'Tag Index', if you want to rename it, create an empty article with your chosen heading directly followed by`##TAGLIST`.
-- `slug:` (WIP) specific alternative word or phrase that anchors the article/reference.
+- `slug:` (WIP) unique alternative word or phrase that manually anchors the article/reference.
 - `aka:` alternative titles, names, synonyms, or pseudonyms.
 
 If you are having issues ensure that:
