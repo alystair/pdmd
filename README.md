@@ -30,7 +30,7 @@ aka: anchor, anchors, references
   - article self-references
   - within backtick scopes
 - All discovered document/project definitions are given definition tooltips, trimmed to X characters.
-- Long definitions and definitions including formatting are additionally linked to definition within the definition article.
+- Longer definitions and definitions with advanced formatting are additionally linked to the definition.
 
 internals: HTML HREF anchors are derived from title, replacing spaces with underscores and discard all incompatible characters.
 
