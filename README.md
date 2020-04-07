@@ -34,7 +34,7 @@ aka: anchor, anchors, references
 
 internals: HTML HREF anchors are derived from title, replacing spaces with underscores and discard all incompatible characters.
 
-(WIP) Although not recommended, automatic linking can be disabled and `abr:` could be used instead.
+(WIP) Although not recommended, automatic linking can be disabled and `see:` could be used instead.
 
 # Definitions article
 aka: glossary
@@ -50,7 +50,7 @@ Could use `ignore:` An optional list of acronyms (all capital letters) separated
 Can be used anywhere.
 
 - `key:` Keyboard key styling. Example: key:Esc
-- ~~`see:` Link to an article/sub-article/list element by title. See definition linking.~~
+- (WIP) `see:` Manually link to an article/sub-article/list element by title. See definition linking.
 
 # Article content styling
 aka: box styles
@@ -70,7 +70,7 @@ notice: It's quite easy to use pdMarkdown!
 warning:
   Your noticing of the demonstration notice above has been noted and any continuing participation in noticing new notices will be noted and potentially reported to notable authorities.
 
-- `internals:` Additional details and rational concerning a project's internal functionality 🤓
+- `internals:` Additional details and rational concerning a project's internal process 🤓
 
 internals: pdMarkdown was born out of writing documentation and tutorials for an internal project. We noticed repeating textual themes throughout (`try:`, `notice:`, etc) and thought it would be best to standardize it.
 
@@ -100,7 +100,7 @@ Same as article properties however they must also:
 # Automatic properties (WIP)
 
 - `previously:` human relevant list of previous titles for renamed articles. (sufficiently different, <6 characters?)
-  - ~~data-priorTitles: all previous titles, hidden when rendered for use by 'definition linking'.~~
+  - (WIP) data-priorTitles: all previous titles, hidden when rendered for use by 'see:'.
 - `authors:` major article contributors. Calculated via non-whitespace contributions adding/changing at least 25% of article. Is this prone to abuse?
 - `contributors:` list of all contributors
 - `creator:` initial contributor
@@ -116,6 +116,7 @@ internals: could use git commit names within repo context.
 - `vcs-added:` git tag/commit introduced in
 
 # Advanced settings (WIP)
+- auto-link: default true
 - auto-link-case-sensitive: default false
 - tooltip-length: default 128 characters?
 - vcs-auto-tags: default true
